@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajnikant.dell.attendancemanagement">
+
+    <application
+        android:name=".context.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.AdminMenuActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.AddFacultyActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.AddStudentActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.ViewFacultyActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.ViewStudentActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.ViewStudentByBranchYear"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.FacultyMenuActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.FacultySession.AddAttendanceActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.FacultySession.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.AdminSession.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
